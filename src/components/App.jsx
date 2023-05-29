@@ -38,7 +38,7 @@ class App extends React.Component {
 
   delContact = (id) => {
     this.setState(({ contacts }) => {
-      const newContacts = contacts.filter(item => item.id != id)
+      const newContacts = contacts.filter(item => item.id !== id)
       return {contacts: newContacts}
     })
   }
