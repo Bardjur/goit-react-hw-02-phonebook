@@ -1,0 +1,8 @@
+.input-wrap {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.input-wrap input {
+  width: 100%;
+}
